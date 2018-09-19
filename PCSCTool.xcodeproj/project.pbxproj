@@ -31,6 +31,7 @@
 		8BFBD03E2152235C00F64589 /* stdAfx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stdAfx.h; sourceTree = "<group>"; };
 		8BFBD03F2152237800F64589 /* tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tools.h; sourceTree = "<group>"; };
 		8BFBD0402152239B00F64589 /* tools.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tools.cpp; sourceTree = "<group>"; };
+		8BFBD0422152251C00F64589 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +49,7 @@
 		8BFBD0282152231F00F64589 = {
 			isa = PBXGroup;
 			children = (
+				8BFBD0422152251C00F64589 /* README.md */,
 				8BFBD0332152231F00F64589 /* PCSCTool */,
 				8BFBD0322152231F00F64589 /* Products */,
 				8BFBD03B2152233300F64589 /* Frameworks */,
