@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8BFBD0352152231F00F64589 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBD0342152231F00F64589 /* main.cpp */; };
+		8BFBD03D2152233300F64589 /* PCSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BFBD03C2152233300F64589 /* PCSC.framework */; };
+		8BFBD0412152239B00F64589 /* tools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBD0402152239B00F64589 /* tools.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		8BFBD0312152231F00F64589 /* PCSCTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PCSCTool; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFBD0342152231F00F64589 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8BFBD03C2152233300F64589 /* PCSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PCSC.framework; path = System/Library/Frameworks/PCSC.framework; sourceTree = SDKROOT; };
+		8BFBD03E2152235C00F64589 /* stdAfx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stdAfx.h; sourceTree = "<group>"; };
+		8BFBD03F2152237800F64589 /* tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tools.h; sourceTree = "<group>"; };
+		8BFBD0402152239B00F64589 /* tools.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tools.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BFBD03D2152233300F64589 /* PCSC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +50,7 @@
 			children = (
 				8BFBD0332152231F00F64589 /* PCSCTool */,
 				8BFBD0322152231F00F64589 /* Products */,
+				8BFBD03B2152233300F64589 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +66,19 @@
 			isa = PBXGroup;
 			children = (
 				8BFBD0342152231F00F64589 /* main.cpp */,
+				8BFBD03E2152235C00F64589 /* stdAfx.h */,
+				8BFBD03F2152237800F64589 /* tools.h */,
+				8BFBD0402152239B00F64589 /* tools.cpp */,
 			);
 			path = PCSCTool;
+			sourceTree = "<group>";
+		};
+		8BFBD03B2152233300F64589 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BFBD03C2152233300F64589 /* PCSC.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BFBD0352152231F00F64589 /* main.cpp in Sources */,
+				8BFBD0412152239B00F64589 /* tools.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
