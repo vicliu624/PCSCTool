@@ -63,7 +63,7 @@ int main(int argc, const char * argv[]) {
     SCARD_IO_REQUEST io;
     io.cbPciLength = sizeof(SCARD_IO_REQUEST);
     
-    iResult = SCardConnect(m_hContext, mapReader[iChooseReaderIndex], SCARD_SHARE_SHARED, SCARD_PROTOCOL_T0|SCARD_PROTOCOL_T1, &m_hCard, &io.dwProtocol);
+    iResult = SCardConnect(m_hContext, mapReader[iChooseReaderIndex], SCARD_SHARE_SHARED, SCARD_PROTOCOL_ANY, &m_hCard, &io.dwProtocol);
     if(iResult  !=  SCARD_S_SUCCESS) {
         cerr << "Connect Card error, code is " << hex << iResult << endl;
         return -1;
